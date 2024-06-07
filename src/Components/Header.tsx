@@ -9,7 +9,7 @@ const Header = () => {
         <div className="relative z-10 flex flex-col items-center md:flex-row md:items-center md:justify-center">
           <img
             className="header-svg w-full md:w-auto md:flex-1"
-            src="../../src/Img/illustration-hero-left.svg"
+            src="../src/Img/illustration-hero-left.svg"
             alt="Hero Left"
           />
           <div className="flex justify-center  flex-col items-center mx-6 my-10 md:my-0">
