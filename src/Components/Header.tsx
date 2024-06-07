@@ -1,4 +1,6 @@
 import HeroLeft from "../Img/illustration-hero-left.svg"
+import HeroRight from "../Img/illustration-hero-right.svg"
+import ScrollIcon from "../Img/icon-scroll.svg"
 
 const Header = () => {
   return (
@@ -28,14 +30,14 @@ const Header = () => {
               </p>
               <img
                 className="mt-7"
-                src="../../src/Img/icon-scroll.svg"
+                src={ScrollIcon}
                 alt="Scroll Icon"
               />
             </div>
           </div>
           <img
             className="header-svg w-full md:w-auto md:flex-1 svg-2"
-            src="../../src/Img/illustration-hero-right.svg"
+            src={HeroRight}
             alt="Hero Right"
           />
         </div>

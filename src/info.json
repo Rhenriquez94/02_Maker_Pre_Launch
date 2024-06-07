@@ -5,14 +5,14 @@
     "id":1,
     "title":"Indulge your passions",
     "description":"Your passions shouldn't be just for the weekend. Earn a living doing what you love.",
-    "img":"../src/Img/illustration-passions.svg"
+    "img":"../Img/illustration-passions.svg"
     },
 
     {
     "id":2,
     "title":"Gain financial freedom",
     "description":"Start making money work for you. There’s nothing quite like earning while you sleep.",
-    "img":"../src/Img/illustration-financial-freedom.svg"
+    "img":"./Img/illustration-financial-freedom.svg"
     },
 
     {
@@ -26,7 +26,7 @@
     "id":4,
     "title":"Work from anywhere",
     "description":"Selling online means not being pinned down. Want to work AND travel? Go for it!",
-    "img":"../src/Img/illustration-work-anywhere.svg"
+    "img":"../../02_Maker_Pre_Launch/src/Img/illustration-work-anywhere.svg"
 
     }
 ]
