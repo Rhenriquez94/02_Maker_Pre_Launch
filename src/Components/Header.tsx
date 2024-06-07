@@ -1,12 +1,13 @@
-import HeroLeft from "../Img/illustration-hero-left.svg"
-import HeroRight from "../Img/illustration-hero-right.svg"
-import ScrollIcon from "../Img/icon-scroll.svg"
+import HeroLeft from "/Img/illustration-hero-left.svg"
+import HeroRight from "/Img/illustration-hero-right.svg"
+import ScrollIcon from "/Img/icon-scroll.svg"
+import LogoIcon from "/Img/logo.svg"
 
 const Header = () => {
   return (
     <section>
       <div className="w-full flex justify-center items-center my-7">
-        <img className="w-32 h-9" src="../../src/Img/logo.svg" alt="Logo" />
+        <img className="w-32 h-9" src={LogoIcon} alt="Logo" />
       </div>
 
       <div className="relative flex flex-col items-center my-10 bg-hero bg-center bg-no-repeat bg-cover">

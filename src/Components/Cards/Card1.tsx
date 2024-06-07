@@ -1,5 +1,5 @@
-import IconCheck from '../../Img/icon-check.svg'
-import IconFree from '../../Img/icon-free.svg'
+import IconCheck from '/Img/icon-check.svg'
+import IconFree from '/Img/icon-free.svg'
 
 const Card1 = () => {
   return (
