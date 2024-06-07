@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --blueskye:#093f68;
+    --calipso:#3EE9E5;
+    --white:#FFFFFF;
+    --blackblue:#080C20;
+    --greywhite:#777F98;
+    --fucsia-errors:#FF2965
+    font-family: "Manrope", sans-serif;
+}
+
+body{
+    background-color: var(--blackblue);
+    font-family: "Manrope", sans-serif;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.containerSvg{
+    display: flex;
+    width: auto;
+    margin: 0 auto;
+}
+
+.header-svg{
+    width: 50%;
+}
+
+p{
+    color:var(--greywhite)
+}
+
+h2{
+    color:var(--white)
+}
+
+li{
+    color:var(--white);
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+::placeholder {
+    text-align: left;
+    line-height: 3rem; 
+    padding-left: 12px;
+}
+
+input {
+    width: 327px;
+    height: 48px; 
+    background-color: #093f68;
+    color: white;
+    text-align: left;
+    padding-left: 12px;
+    line-height: 48px; 
+    border: var(--calipso);
+    outline:  var(--calipso);
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+input:focus {
+    background-color: #1e5a89; 
+    color: #ffffff; 
+    border: var(--calipso); 
+    outline:  var(--calipso);
+}
+
+button:hover{
+    background: var(--blackblue);
+    border:1px solid #3EE9E5;
+    color: white;
+}
+
+@layer utilities {
+    .bg-hero {
+      background-image: url('../../src/Img/bg-hero-squiggle.svg');
+      background-size: 450px 450px; /* Ajusta el tamaño de la imagen según sea necesario */
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .box-info:nth-child(odd){
+        padding-bottom: 180px;
+    }
+  
+    @media (max-width: 767px) {
+      .bg-hero {
+        background-image: none;
+      }
+
+      .svg-2{
+        display: none;
+
+      }
+    }
+  }
+  
